@@ -9,5 +9,6 @@ public interface OrderBuilder {
 
     OrderBuilder orderVegetable(VegetableType vegetableType);
 
+    // trả về đối tượng muốn set chức năng
     Order build();
 }
